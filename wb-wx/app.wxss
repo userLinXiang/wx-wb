@@ -1,0 +1,34 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+page{
+  margin:0;
+  padding:0;
+}
+/* 主页所有标题样式 */
+.title{
+  width: 100%;
+  height:30rpx;
+  line-height: 30rpx;
+  fony-size:14px;
+  font-weight: 700;
+  color:black;
+  padding:30rpx 0 30rpx 15rpx;
+}
+.title .subtitle{
+  color:gray;
+  font-weight: 100;
+}
+/* 文字溢出隐藏 */
+.ell{
+  overflow: hidden;         /*超出隐藏*/
+  white-space: nowrap;      /*不允许换行*/
+  text-overflow: ellipsis;  /*超出部分添加...*/
+}

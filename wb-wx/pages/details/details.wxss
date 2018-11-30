@@ -1,0 +1,30 @@
+/* pages/details/details.wxss */
+.img-head{
+  width: 100%;
+  height:700rpx;
+  display: flex;
+  justify-content: center;
+}
+.img-head image{
+  width: 100%;
+  height: 100%;
+}
+.body-title{
+  width: 100%;
+  height:200rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top:1px solid #eee;
+  border-bottom:1px solid #eee; 
+}
+.txt-title{
+  font-size:14px;
+  width:90%;
+  margin-bottom: 15rpx;
+}
+.txt-price{
+  font-size:14px;
+  font-weight: 700;
+  color:#b32424;
+}

@@ -1,0 +1,31 @@
+<!--pages/product/product.wxml-->
+<!-- 头部搜索 -->
+<view class="head">
+<image src="http://176.51.1.241:3000/img/logo.png" class="logo" lazy-load='true' mode="aspectFill"></image>
+<input placeholder='搜索店铺内商品' bindinput='getInput'></input>
+</view>
+<!-- 导航栏 -->
+<view class="nav">
+<text class="nav-item .active">推荐</text>
+<text class="nav-item">销量</text>
+<text class="nav-item">新品</text>
+<text class="nav-item">价格</text>
+</view>
+<!-- 商品加载模块 1行2列 -->
+<view class="product">
+<!-- <view class="product-card">
+  <image src='http://176.51.1.241:3000/img/wb-product/boy.jpg' lazy-load='true' mode="aspectFill"></image>
+  <text class="product-title ell">瑞士艺术制表大师爱宝时（EPOS）-Emotion情感系列 罗马假期-水蓝版 3390.152.20.16.25 机械男表</text>
+  <text class="product-price">￥15100.00</text>
+</view> -->
+<view class="product-card" wx:for="{{productList}}" wx:key="{{item.lid}}">
+  <image src="http://176.51.1.241:3000/{{item.d_img}}" lazy-load='true' mode="aspectFill"></image>
+  <text class="product-title ell">{{item.title}}</text>
+  <text class="product-price">￥{{item.price}}</text>
+</view>
+<view class="pageClass">
+<view class="page-prev" bindtap='prevClick'>上一页</view>
+<view class="page-number">{{pno+1}}</view>
+<view class="page-next" bindtap='nextClick'>下一页</view>
+</view>
+</view>

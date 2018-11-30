@@ -1,0 +1,20 @@
+<!--pages/details/details.wxml-->
+<!-- 展示图片 -->
+<view class="img-head">
+  <image src="http://176.51.1.241:3000/img/product1.png"></image>
+</view>
+<!-- 标题与价格 -->
+<view class="body-title">
+<text class="txt-title">百达翡丽Patek Philippe-Sky Moon Tourbillon Ref. 5002P 机械男表</text>
+<text class="txt-price">¥17,600,000</text>
+</view>
+<!-- 领劵 -->
+<view class="count">
+  <view>领劵</view>
+  <view>满1000减100</view>
+</view>
+<!-- 促销 -->
+
+<!-- 数量 -->
+
+<!-- 固定定位的加入购物车 -->

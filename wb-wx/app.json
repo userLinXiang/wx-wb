@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/details/details",
+    
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/news/news",
+    "pages/profile/profile",
+    "pages/product/product"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#b32424",
+    "navigationBarTitleText": "万表商城 ",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "tabs/home.png",
+        "selectedIconPath": "tabs/home-active.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "资讯",
+        "iconPath": "tabs/message.png",
+        "selectedIconPath": "tabs/message-active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "tabs/profile.png",
+        "selectedIconPath": "tabs/profile-active.png"
+      }
+    ]
+  }
+}

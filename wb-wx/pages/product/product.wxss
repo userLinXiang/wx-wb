@@ -1,0 +1,100 @@
+/* pages/product/product.wxss */
+page{
+  background-color:#f1f1f1;
+}
+/* 头部样式 */
+.head{
+  height:100rpx;
+  border-bottom:1rpx solid gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+.head image.logo{
+  width: 100rpx;
+  height:80rpx;
+  margin-left:30rpx;
+}
+.head input{
+  width:500rpx;
+  height:80rpx;
+  background-color:#ccc;
+  border-radius: 40rpx;
+  text-align: center;
+  margin-right:40rpx;
+  font-size:14px;
+}
+/* 导航栏样式 */
+.nav{
+  height:80rpx;
+  border-bottom:1rpx solid #ccc;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-item{
+  font-size:14px;
+}
+.active{
+  color:#b32424;
+  border-bottom:2rpx solid #b32424;  
+}
+/* 商品模块样式 */
+.product{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.product-card{
+  height:500rpx;
+  width:48%;
+  /* border:1rpx solid red; */
+  background-color:#fff; 
+  margin:5rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.product-card image{
+  height:300rpx;
+  width: 70%;
+}
+.product-card .product-title{
+  width:90%;
+  height:60rpx;
+  margin:10rpx;
+  font-size:12px;
+  position: relative;
+  top:10rpx;
+}
+.product-card .product-price{
+  color:#b32424;
+  font-size:14px;
+  font-weight: 600;
+  position: relative;
+  top:-30rpx;
+}
+/* 分页按钮 */
+.pageClass{
+  width: 100%;
+  height:80rpx;
+  line-height: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:40rpx 0;
+}
+.page-prev,.page-next{
+  height:100%;
+  width:160rpx;
+  font-size:12px;
+  border-radius:15rpx; 
+  background: #ccc;
+  color:black;
+  margin:10rpx;
+  text-align: center;
+}
+.page-number{
+  font-size:12px;
+}
